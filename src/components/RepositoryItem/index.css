@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.repo-item {
+  width: 300px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 20px;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.repo-item-avatar {
+  width: 100px;
+  margin: 10px;
+}
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stats-img {
+  width: 10px;
+  margin-right: 10px;
+}

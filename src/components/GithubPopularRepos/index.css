@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.page {
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.page-heading {
+  font-size: 35px;
+  font-family: Lobster;
+  margin: 30px;
+}
+.language-filter-item-container {
+  list-style-type: none;
+  display: flex;
+}
+.repos-container {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
